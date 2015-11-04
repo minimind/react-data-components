@@ -37,7 +37,7 @@ function buildSortProps(col, sortBy, onSort) {
   };
 }
 
-export default class Table {
+export default class Table extends React.Component {
 
   static defaultProps = {
     buildRowOptions: () => ({}),

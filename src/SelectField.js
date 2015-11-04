@@ -1,6 +1,6 @@
 var React = require('react');
 
-class SelectField {
+class SelectField extends React.Component {
 
   constructor() {
     this.onChange = this.onChange.bind(this);
